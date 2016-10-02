@@ -16,3 +16,7 @@ stack:
       MYSQL_DATABASE: devflow
       MYSQL_USER: devflow
       MYSQL_PASSWORD: devflow
+deployment:
+  install:
+    - "composer install --prefer-dist"
+    - "npm install"   # Will install grunt
