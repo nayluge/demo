@@ -1,4 +1,6 @@
-
+env:
+  timezone: Europe\Paris
+  
 stack:
   nginx:
     document_root: .
