@@ -18,6 +18,10 @@ stack:
       MYSQL_DATABASE: devflow
       MYSQL_USER: devflow
       MYSQL_PASSWORD: devflow
+    databases:
+      - test
+    user: test
+    password: demo
 deployment:
   install:
     - "composer install --prefer-dist"
