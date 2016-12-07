@@ -22,6 +22,8 @@ stack:
       - test
     user: test
     password: demo
+  redis:
+    version: latest
 deployment:
   install:
     - "composer install --prefer-dist"
